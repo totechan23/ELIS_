@@ -1,16 +1,24 @@
 # ELIS
 
-Minimal premium AI chat UI built with React, Tailwind CSS, and Framer Motion.
+ELIS includes:
 
-## Run locally
+- A premium chat frontend (`/` root project, React + Vite)
+- A production-ready backend API (`/backend`, Node.js + Express + MongoDB)
+
+## Frontend
 
 ```bash
 npm install
 npm run dev
 ```
 
-## Build
+## Backend
 
 ```bash
-npm run build
+cd backend
+npm install
+cp .env.example .env
+npm run dev
 ```
+
+For full backend setup and API docs, see [`backend/README.md`](backend/README.md).
